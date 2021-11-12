@@ -1,0 +1,13 @@
+{
+"companyName": "Cruzona",
+"productName": "Gigabyte",
+"dataUrl": "Version 1.75 WebGL.data.unityweb",
+"asmCodeUrl": "Version 1.75 WebGL.asm.code.unityweb",
+"asmMemoryUrl": "Version 1.75 WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "Version 1.75 WebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 536870912,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

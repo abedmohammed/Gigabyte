@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Blue
+  - Green
+  - Red
+  - Enemy
+  - Purple
+  - ChargeAudio
+  - Pink
+  - ChargingEffect
+  - Enemy Shield
+  - Enemy Projectile
+  - EnemyPlus
+  - Camera Collider
+  - Purple Block
+  - Pink Block
+  - Normal Block
+  - Level End
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Player Projectile
+  - Obsticals
+  - Invulnerable
+  - Enemy
+  - Hurt Player
+  - Enemy Projectile
+  - Enemy Solid
+  - Pieces
+  - Sensor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

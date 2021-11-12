@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1096703037992814}
+  m_IsPrefabParent: 1
+--- !u!1 &1096703037992814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4097535387225326}
+  - component: {fileID: 114726306384871058}
+  - component: {fileID: 114930147318827366}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4097535387225326
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096703037992814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1151133, y: 3.9951997, z: -0.08592865}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114726306384871058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096703037992814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37692121148890040ac78246d17b3010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDead: 0
+  time: 0.3
+  magnitude: 0.05
+  deathEffect: {fileID: 1941166455249636, guid: e084d9814fda06f48a5267fbd61b1c10,
+    type: 2}
+  MyObjects:
+  - {fileID: 1154867593337234, guid: 2429647e869e0724594f0745a41e7998, type: 2}
+  - {fileID: 1547952626990700, guid: df9d934539bbc784d9398a436f7b9e6f, type: 2}
+  - {fileID: 1639491614857510, guid: 295bc4cee43e7cf40be37f205377c20c, type: 2}
+  - {fileID: 1470600986212880, guid: de6a04f6d0fa0c349a635c84684df36f, type: 2}
+  - {fileID: 1773964422776054, guid: 0dd315de27a094e4d91efaad64287f0e, type: 2}
+  - {fileID: 1057878315102440, guid: 0661025d937ee494080878d68e1cab46, type: 2}
+--- !u!114 &114930147318827366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096703037992814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9684eb8ace635a544993760e3e7714f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagingSpikes: {fileID: 0}
+  instakillSpikes: {fileID: 0}
+  smallSpikes: {fileID: 0}
+  bigSpikes: {fileID: 0}
+  cameraBorder1: {fileID: 0}
+  cameraBorder2: {fileID: 0}
+  levelEnd1: {fileID: 0}
+  levelEnd2: {fileID: 0}
+  colorObjects: {fileID: 0}
+  colorObjects2: {fileID: 0}
